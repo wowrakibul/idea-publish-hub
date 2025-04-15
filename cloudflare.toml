@@ -1,0 +1,6 @@
+
+name = "idea-publish-hub"
+
+[build]
+command = "npm run build"
+publish = "dist"

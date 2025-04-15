@@ -1,0 +1,11 @@
+
+name = "idea-publish-hub"
+type = "webpack"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+[site]
+bucket = "./dist"
+entry-point = "./.cloudflare/workers-site"
