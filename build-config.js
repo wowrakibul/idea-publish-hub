@@ -3,7 +3,7 @@
 module.exports = {
   // Configure build command
   build: {
-    command: 'npm run build',
+    command: 'node build-command.js',
     directory: 'dist',
     environment: {
       NODE_VERSION: '18'

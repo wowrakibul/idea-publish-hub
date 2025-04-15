@@ -34,12 +34,6 @@ async function handleEvent(event) {
       }
     }
     
-    /**
-     * You can add custom logic to how we fetch your assets
-     * by configuring the function `mapRequestToAsset`
-     */
-    // options.mapRequestToAsset = handlePrefix(/^\/docs/)
-
     const page = await getAssetFromKV(event, options)
 
     // allow headers to be altered
