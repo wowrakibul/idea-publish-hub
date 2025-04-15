@@ -1,11 +1,12 @@
 
 name = "idea-publish-hub"
-type = "webpack"
-account_id = ""
-workers_dev = true
-route = ""
-zone_id = ""
+compatibility_date = "2023-06-28"
+
+[build]
+command = "npm run build"
 
 [site]
 bucket = "./dist"
-entry-point = "./.cloudflare/workers-site"
+
+# Cloudflare Pages specific configuration
+pages_build_output_dir = "dist"

@@ -8,5 +8,9 @@ module.exports = {
     environment: {
       NODE_VERSION: '18'
     }
+  },
+  // Disable frozen lockfile to allow automatic dependency resolution
+  packageManager: {
+    enableFrozenLockfile: false
   }
 }
